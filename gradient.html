@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive map</title>
+    <link rel="stylesheet" href="global.css"/>
+    <link rel="stylesheet" href="leaflet/leaflet.css"/>
+   <script src="leaflet/leaflet.js"></script>
+
+</head>
+<body>
+    <a style="margin: 50px;"href="index.html">Home</a>
+    <div id="map" style="height: 400px; width:75%;margin:20px;"></div> 
+    <script>
+        var map = L.map('map').setView([11.0168, 76.9558], 13);
+
+        // Add a tile layer to display the map
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        }).addTo(map);
+    </script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+*{
+    padding: 0px;
+    margin:0px
+}
+
+.divv{
+    display:flex;
+
+}
+.divv>a{
+    display:flex;
+    padding: 5px;
+
+}
+.divvv{
+display: flex;
+ justify-content: center;
+ align-items:flex-end;
+}
+
+.divvv>img{
+     margin:10px;
+    }
+
+#progres{
+    width: 100%;
+    background-color: grey;
+
+
+    }
+
+    .leaflet-control-attribution {
+        display: none;
+    }
+#myBar {
+        width: 1%;
+        height: 30px;
+        background-color: green;
+      }
+
+      #gradient{
+        margin-top: 30px;
+        width: 100%;
+        height: 150px;
+        background: rgb(38,30,173);
+        background: linear-gradient(90deg, rgba(38,30,173,1) 0%, rgba(15,15,140,1) 27%, rgba(30,65,255,1) 48%, rgba(4,67,122,1) 76%, rgba(11,173,205,1) 100%);
+      }
+
+      #map { height: 180px; }

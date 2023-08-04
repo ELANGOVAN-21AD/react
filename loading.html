@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.redrec {
+  width: 100px;
+  height: 100px;
+  background: black;
+  position: relative;
+  animation: mymove 2s infinite;
+  
+}
+
+.redrec3 {
+  width: 100px;
+  height: 100px;
+  background: yellow;
+  position: relative;
+  animation: mymove3 1s infinite;
+}
+
+.greenrec {
+  width: 100px;
+  height: 100px;
+  background: yellow;
+  position: relative;
+  animation: mymovee 1s infinite;
+}
+
+.greenrec3 {
+  width: 100px;
+  height: 100px;
+  background: yellow;
+  position: relative;
+  animation: mymovee3 3s infinite;
+}
+
+.divone {
+display: flex
+}
+.divtwo {
+display: flex
+}
+@keyframes mymove {
+  0% { background:black; }
+  25% {  background:yellow;}
+  50% {  background:yellow}
+  75% { background:yellow }
+  100% { background:black;}
+}
+
+
+@keyframes mymove3 {
+  0% { }
+  25% {  background:black;}
+  50% {  background:yellow}
+  75% { background:yellow }
+  100% { background:yellow;}}
+
+
+@keyframes mymovee3 {
+  0% { top: 0; left: 0; }
+  25% { top: 0px; left: 0; background:yellow;}
+  50% { top: 0px; left: 0px;background:black;}
+  75% { top: 0; left: 0px;background:yellow }
+  100% { top: 0; left: 0; background:yellow}
+}
+
+@keyframes mymovee {
+  0% { top: 0; left: 0; }
+  25% { top: 0px; left: 0; background:yellow;}
+  50% { top: 0px; left: 0px;background:yellow;}
+  75% { top: 0; left: 0px;background:black }
+  100% { top: 0; left: 0; background:yellow}
+}
+
+.dot1{
+ width: 5px;
+  height: 5px;
+  vertical-align: bottom;
+  margin-inline: 10px;
+  border-radius:100%;
+  background: black;
+  position: absolute;
+}
+
+
+.divv{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+</style>
+</head>
+<body>
+<div class="divv" >
+<div class="divone">
+<div class="redrec"></div>
+<div class="greenrec"></div>
+</div>
+<div class="divtwo">
+<div class="redrec3"></div>
+<div class="greenrec3"></div>
+</div>
+
+<div style="display:flex;">
+<p >Loading ...
+
+  
+</p>
+</div>
+<a href="index.html">Home</a>
+</div>
+
+</body>
+</html>
